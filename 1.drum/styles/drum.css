@@ -1,0 +1,34 @@
+.drum-background {
+    background-image: url('../assets/audience.jpg');
+    background-repeat: round;
+}
+
+.keys {
+    display: flex;
+	align-items: center;
+	justify-content: center; 
+	min-height: 100%;
+}
+
+.key {
+	
+    height: 70px;
+    width: 70px;
+    border: white 4px solid;
+    border-radius: 12px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 5px red;
+	margin: 15px;
+}
+
+kbd {
+	display: block;
+    font-size: 40px;
+	text-align: center;
+}
+
+.sound {
+	text-transform: uppercase;
+	font-size: 12px;
+}
