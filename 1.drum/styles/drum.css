@@ -10,8 +10,7 @@
 	min-height: 100%;
 }
 
-.key {
-	
+.key {	
     height: 70px;
     width: 70px;
     border: white 4px solid;
@@ -31,4 +30,10 @@ kbd {
 .sound {
 	text-transform: uppercase;
 	font-size: 12px;
+}
+
+.playing {
+	border: red 4px solid;
+	transition: 0.2s ease;
+	transform: scale(1.1);
 }
